@@ -38,7 +38,6 @@ export default function Header() {
                   "
                 >
                   <a className="mr-4 navbar-brand" href="index.html">
-                    {/* <img src="../assets/images/logo/logo.svg" alt="Logo" /> */}
                     <img src={logo} alt="Logo" />
                   </a>
                   <button
@@ -167,7 +166,7 @@ export default function Header() {
                       href="javascript:void(0)"
                       rel="nofollow"
                     >
-                      Download Now
+                      Entrar
                     </a>
                   </div>
                 </nav>
@@ -213,20 +212,12 @@ export default function Header() {
                     data-wow-duration="1.3s"
                     data-wow-delay="0.5s"
                   >
-                  A Betontech atua na area de consultoria e serviços especiais de engenharia civil. Sediada em Porto Velho-RO onde possui um laboratório central e laboratórios de campo nas principais obras do país.
+                  A Betontech atua na area de consultoria e serviços especiais de engenharia civil. Sediada em Porto Velho-RO onde possui um laboratório central e laboratórios de campo nas principais obras do país.                                                                                                  
                   </h2>
                 </div>
               </div>
             </div>
-
-            <div className="justify-center flex flex-wrap">
-              <div className="w-full lg:w-2/3">
-               
-              </div>
-            </div>
           </div>
-
-        
         </div>
       </header>
     </>
