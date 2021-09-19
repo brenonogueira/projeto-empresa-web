@@ -1378,9 +1378,9 @@ p {
 .gradient-btn {
   background-image: linear-gradient(
     to right,
-    #fe8464 0%,
-    #fe6e9a 50%,
-    #fe8464 100%
+    #0f043f 0%,
+    #303dec 50%,
+    #0f043f 100%
   );
   background-size: 200% auto;
   overflow: hidden;
