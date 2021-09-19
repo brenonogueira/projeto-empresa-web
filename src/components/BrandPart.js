@@ -13,7 +13,7 @@ export default function BrandPart() {
     <div>
       <div class="row">
         <div class="col-lg-12">
-          <div class="header-hero-image text-center wow fadeIn" data-wow-duration="1.3s" data-wow-delay="1.4s">
+          <div class="header-hero-image text-center wow fadeIn" data-wow-duration="0.3s" data-wow-delay="1.4s">
             <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
               <ol class="carousel-indicators">
                   <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
