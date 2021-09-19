@@ -1,6 +1,6 @@
 import React from "react";
 import logo from "../assets/images/logo/logo.svg";
-import headerHero from "../assets/images/header/header-hero.png";
+
 import bannerBg from "../assets/images/header/banner-bg.svg";
 
 import ScriptTag from "react-script-tag";
@@ -122,34 +122,30 @@ export default function Header() {
                     >
                       <li className="nav-item active">
                         <a className="page-scroll" href="#home">
-                          Home
+                        Inicio
                         </a>
                       </li>
                       <li className="nav-item">
                         <a className="page-scroll" href="#features">
-                          Features
+                        Recursos
                         </a>
                       </li>
                       <li className="nav-item">
                         <a className="page-scroll" href="#about">
-                          About
+                        Serviços
                         </a>
                       </li>
                       <li className="nav-item">
                         <a className="page-scroll" href="#facts">
-                          Why
+                        Sobre Nós
                         </a>
                       </li>
                       <li className="nav-item">
                         <a className="page-scroll" href="#team">
-                          Team
+                        Equipe
                         </a>
                       </li>
-                      <li className="nav-item">
-                        <a className="page-scroll" href="#blog">
-                          Blog
-                        </a>
-                      </li>
+                      
                     </ul>
                   </div>
 
@@ -192,6 +188,7 @@ export default function Header() {
                     className="
                       text-4xl
                       font-light
+                      font-bold
                       leading-tight
                       text-white
                       header-sub-title
@@ -201,13 +198,13 @@ export default function Header() {
                     data-wow-duration="1.3s"
                     data-wow-delay="0.2s"
                   >
-                    Basic - SaaS Landing Page
+                  BETONTECH
                   </h3>
                   <h2
                     className="
                       mb-3
                       text-4xl
-                      font-bold
+                      
                       text-white
                       header-title
                       wow
@@ -216,45 +213,20 @@ export default function Header() {
                     data-wow-duration="1.3s"
                     data-wow-delay="0.5s"
                   >
-                    Kickstart Your SaaS or App Site
+                  A Betontech atua na area de consultoria e serviços especiais de engenharia civil. Sediada em Porto Velho-RO onde possui um laboratório central e laboratórios de campo nas principais obras do país.
                   </h2>
-                  <p
-                    className="mb-8 text-white text wow fadeInUp"
-                    data-wow-duration="1.3s"
-                    data-wow-delay="0.8s"
-                  >
-                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
-                    diam nonumy eirmod tempor
-                  </p>
-                  <a
-                    href="javascript:void(0)"
-                    className="main-btn gradient-btn gradient-btn-2 wow fadeInUp"
-                    data-wow-duration="1.3s"
-                    data-wow-delay="1.1s"
-                  >
-                    Get Started
-                  </a>
                 </div>
               </div>
             </div>
 
             <div className="justify-center flex flex-wrap">
               <div className="w-full lg:w-2/3">
-                <div
-                  className="text-center header-hero-image wow fadeIn"
-                  data-wow-duration="1.3s"
-                  data-wow-delay="1.4s"
-                >
-                  <img src={headerHero} alt="hero" />
-                </div>
+               
               </div>
             </div>
           </div>
 
-          <div
-            id="particles-1"
-            className="particles absolute top-0 left-0 w-full h-full z-[-1]"
-          ></div>
+        
         </div>
       </header>
     </>
