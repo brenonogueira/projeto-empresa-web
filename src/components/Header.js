@@ -212,7 +212,7 @@ export default function Header() {
                     data-wow-duration="1.3s"
                     data-wow-delay="0.5s"
                   >
-                  A Betontech atua na area de consultoria e serviços especiais de engenharia civil. Sediada em Porto Velho-RO onde possui um laboratório central e laboratórios de campo nas principais obras do país.                                                                                                  
+                  A Betontech atua na area de consultoria e serviços especiais de engenharia civil. Sediada em Porto Velho-RO onde possui um laboratório central e laboratórios de campo nas principais obras do país. 
                   </h2>
                 </div>
               </div>
