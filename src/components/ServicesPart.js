@@ -238,7 +238,7 @@ export default function ServicesPart() {
                 </div>
                 <div className="mt-8 services-content">
                   <h4 className="mb-8 text-xl font-bold text-gray-900">
-                    Solo
+                      Solo
                   </h4>
                   <p className="mb-8">
                   Um determinado tipo de solo pode facilitar ou mesmo limitar o uso do terreno.

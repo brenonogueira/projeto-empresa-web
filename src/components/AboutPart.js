@@ -1,5 +1,5 @@
 import React from 'react'
-import about1 from '../assets/images/about/about1.svg'
+import about1 from '../assets/images/about/10.jpg'
 import about2 from '../assets/images/about/about2.svg'
 import about3 from '../assets/images/about/about3.svg'
 
@@ -31,22 +31,18 @@ export default function AboutPart() {
                     "
                   ></div>
                   <h3 class="text-[32px] pt-2 font-bold">
-                    Quick & Easy
-                    <span class="font-normal">to Use Tailwind Template</span>
+                  Densidade
+                    <span class="font-normal"> IN SITU</span>
                   </h3>
                 </div>
                 {/* <!-- section title --> */}
                 <p class="mb-8">
-                  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, seiam
-                  nonumy eirmod tempor invidunt ut labore et dolore magna
-                  aliquyam erat, sed diam voluptua. At vero eos et accusam et
-                  justo duo dolores et ea rebum. Stet clita kasd gubergren, no
-                  sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem
-                  ipsum dolor sit amet, consetetur sadipscing.
+                No controle da compactação em campo, é prioridade o ensaio de laboratório 
+                como referência e verificar o que é obtido em campo com equipamento,
+                conferindo os resultados com os de laboratório, dentro das especificações, Ensaio embasado na ABNT NBR 7185:2016.
                 </p>
                 <a href="javascript:void(0)" class="main-btn gradient-btn"
-                  >Try it Free</a
-                >
+                  >Saiba mais</a>
               </div>
 
             </div>
@@ -63,10 +59,7 @@ export default function AboutPart() {
           </div>
 
         </div>
-
-        <div class="about-shape-1 absolute top-0 right-0 h-full z-[-1] w-[35%]">
-          <img src={aboutShape1} alt="shape" />
-        </div>
+        
       </div>
  
 
