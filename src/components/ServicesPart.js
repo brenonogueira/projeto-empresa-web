@@ -25,9 +25,7 @@ export default function ServicesPart() {
                 "
                 ></div>
                 <h3 className="text-[32px] pt-2 font-bold">
-                  Clean and simple design,
-                  <span className="font-normal">
-                    Comes with everything you need to get started!
+                Nossos recursos, <span>Serviços com qualidade e pontualidade.
                   </span>
                 </h3>
               </div>
@@ -77,7 +75,7 @@ export default function ServicesPart() {
                   />
                   <i
                     className="
-                    lni lni-baloon
+                    lni lni-trowel
                     absolute
                     top-0
                     left-0
@@ -91,13 +89,8 @@ export default function ServicesPart() {
                   ></i>
                 </div>
                 <div className="mt-8 services-content">
-                  <h4 className="mb-8 text-xl font-bold text-gray-900">
-                    Clean
-                  </h4>
-                  <p className="mb-8">
-                    Lorem ipsum dolor sit amet,consetetur sadipscing elitr,
-                    seddiam nonu eirmod tempor invidunt labore.
-                  </p>
+                  <h4 className="mb-8 text-xl font-bold text-gray-900">Concreto</h4>
+                  <p className="mb-8">O concreto é um dos materiais mais importantes para a construção civil, composto por cimento, brita, areia e aditivos.</p>
                   <a
                     className="
                     duration-300
@@ -107,7 +100,7 @@ export default function ServicesPart() {
                   "
                     href="javascript:void(0)"
                   >
-                    Learn More
+                    Saiba mais
                     <i className="ml-2 lni lni-chevron-right text-sm font-bold"></i>
                   </a>
                 </div>
@@ -155,7 +148,7 @@ export default function ServicesPart() {
                   />
                   <i
                     className="
-                    lni lni-cog
+                    lni lni-road
                     absolute
                     top-0
                     left-0
@@ -170,12 +163,9 @@ export default function ServicesPart() {
                 </div>
                 <div className="mt-8 services-content">
                   <h4 className="mb-8 text-xl font-bold text-gray-900">
-                    Robust
+                    Asfalto
                   </h4>
-                  <p className="mb-8">
-                    Lorem ipsum dolor sit amet,consetetur sadipscing elitr,
-                    seddiam nonu eirmod tempor invidunt labore.
-                  </p>
+                  <p className="mb-8">Asfalto é um material betuminoso, escuro, de estrutura sólida, sendo resíduo da destilação a vácuo do petróleo bruto.</p>
                   <a
                     className="
                     duration-300
@@ -185,7 +175,7 @@ export default function ServicesPart() {
                   "
                     href="javascript:void(0)"
                   >
-                    Learn More
+                    Saiba mais
                     <i className="ml-2 lni lni-chevron-right text-sm font-bold"></i>
                   </a>
                 </div>
@@ -233,7 +223,7 @@ export default function ServicesPart() {
                   />
                   <i
                     className="
-                    lni lni-bolt-alt
+                    lni lni-shovel
                     absolute
                     top-0
                     left-0
@@ -248,11 +238,11 @@ export default function ServicesPart() {
                 </div>
                 <div className="mt-8 services-content">
                   <h4 className="mb-8 text-xl font-bold text-gray-900">
-                    Powerful
+                    Solo
                   </h4>
                   <p className="mb-8">
-                    Lorem ipsum dolor sit amet,consetetur sadipscing elitr,
-                    seddiam nonu eirmod tempor invidunt labore.
+                  Um determinado tipo de solo pode facilitar ou mesmo limitar o uso do terreno.
+                  E, no caso de ser um limitador, ele pode trazer muita dor de cabeça ao arquiteto, engenheiro e proprietário, caso não seja muito bem trabalhado.
                   </p>
                   <a
                     classNameName="
@@ -263,7 +253,7 @@ export default function ServicesPart() {
                   "
                     href="javascript:void(0)"
                   >
-                    Learn More
+                    Saiba mais
                     <i className="ml-2 lni lni-chevron-right text-sm font-bold"></i>
                   </a>
                 </div>
