@@ -94,9 +94,9 @@ export default function TeamPart() {
               </div>
               <div class="p-8">
                 <h5 class="mb-1 text-xl font-bold text-gray-900">
-                  Isabela Moreira
+                  Luis Felipe 
                 </h5>
-                <p>Founder and CEO</p>
+                <p>Fundador e Chefe Executivo</p>
               </div>
             </div>
             {/* <!-- single team --> */}
@@ -162,8 +162,9 @@ export default function TeamPart() {
                 </div>
               </div>
               <div class="p-8">
-                <h5 class="mb-1 text-xl font-bold text-gray-900">Elon Musk</h5>
-                <p>Sr. Software Engineer</p>
+                <h5 class="mb-1 text-xl font-bold text-gray-900">Marcio Dantas</h5>
+                <p>Encarregado
+                </p>
               </div>
             </div>
             {/* <!-- single team --> */}
@@ -230,9 +231,9 @@ export default function TeamPart() {
               </div>
               <div class="p-8">
                 <h5 class="mb-1 text-xl font-bold text-gray-900">
-                  Fiona Smith
+                  Suely 
                 </h5>
-                <p>Business Development Manager</p>
+                <p>Gerente Financeiro</p>
               </div>
             </div>
             {/* <!-- single team --> */}
