@@ -2,6 +2,8 @@ import React from "react";
 import logo from "../assets/images/logo/logo.svg";
 
 import bannerBg from "../assets/images/header/banner-bg.svg";
+import logoHeader from "../assets/images/header/bth-logo.jpeg";
+
 
 import ScriptTag from "react-script-tag";
 
@@ -174,6 +176,7 @@ export default function Header() {
             </div>
           </div>
         </div>
+        
         <div
           id="home"
           className="relative z-20 bg-bottom bg-no-repeat bg-cover"
@@ -182,7 +185,7 @@ export default function Header() {
           <div className="container px-4">
             <div className="justify-center flex flex-wrap">
               <div className="w-full lg:w-2/3">
-                <div className="pt-32 mb-12 text-center lg:pt-48 header-hero-content">
+                <div className="pt-32 mb-120 text-center lg:pt-48 header-hero-content">
                   <h3
                     className="
                       text-4xl
@@ -199,6 +202,7 @@ export default function Header() {
                   >
                   BETONTECH
                   </h3>
+                  
                   <h2
                     className="
                       mb-3
@@ -208,17 +212,21 @@ export default function Header() {
                       header-title
                       wow
                       fadeInUp
+                      mb-8
                     "
                     data-wow-duration="1.3s"
                     data-wow-delay="0.5s"
                   >
                   A Betontech atua na area de consultoria e serviços especiais de engenharia civil. Sediada em Porto Velho-RO onde possui um laboratório central e laboratórios de campo nas principais obras do país. 
                   </h2>
+                  
                 </div>
+                
               </div>
             </div>
           </div>
         </div>
+        
       </header>
     </>
   );

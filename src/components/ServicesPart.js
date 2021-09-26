@@ -165,7 +165,8 @@ export default function ServicesPart() {
                   <h4 className="mb-8 text-xl font-bold text-gray-900">
                     Asfalto
                   </h4>
-                  <p className="mb-8">Asfalto é um material betuminoso, escuro, de estrutura sólida, sendo resíduo da destilação a vácuo do petróleo bruto.</p>
+                  <p className="mb-8" >Asfalto é um material betuminoso, escuro, de estrutura sólida, 
+                  sendo resíduo da destilação a vácuo do petróleo bruto.</p>
                   <a
                     className="
                     duration-300
@@ -245,7 +246,7 @@ export default function ServicesPart() {
                   E, no caso de ser um limitador, ele pode trazer muita dor de cabeça ao arquiteto, engenheiro e proprietário, caso não seja muito bem trabalhado.
                   </p>
                   <a
-                    classNameName="
+                    className="
                     duration-300
                     text-theme-color-2
                     hover:tracking-wider

@@ -24,7 +24,8 @@ export default function TeamPart() {
                 "
               ></div>
               <h3 class="text-[32px] pt-2 font-bold">
-                <span class="font-normal">Meet Our</span> Creative Team Members
+                <span class="font-normal">Conheça os membros</span> da nossa equipe.
+                
               </h3>
             </div>
             {/* <!-- section title --> */}
