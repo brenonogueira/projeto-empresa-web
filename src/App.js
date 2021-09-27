@@ -1,29 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
-import '../src/assets/css/animate.css'
-import '../src/assets/css/tiny-slider.css'
-import '../src/assets/css/glightbox.min.css'
-import '../src/assets/css/lineicons.css'
-import '../src/assets/css/tailwindcss.css'
-import Header from '../src/components/Header'
-import BrandPart from './components/BrandPart';
-import ServicesPart from './components/ServicesPart';
-import AboutPart from './components/AboutPart';
-import TeamPart from './components/TeamPart';
-import Footer from './components/Footer';
+import{ BrowserRouter, Switch, Route} from 'react-router-dom';
 
-function App() {
+import Home from './pages/Home';
+import pageAsphalt from './pages/PageAsphalt';
+import pageConcrete from './pages/PageConcrete';
+import pageGround from './pages/PageGround';
 
-  return (
-    <div className="App">
-      <Header/>
-      <BrandPart/>
-      <ServicesPart/>
-      <AboutPart/>
-      <TeamPart/>
-      <Footer/>
-    </div>
-  );
-}
+function App(){
+    return(
+        <BrowserRouter>
+            <Switch>
+                <Route path="/" exact component={Home}/>
+                <Route path="/page-asphalt" component={pageAsphalt} />
+                <Route path="/page-concrete" component={pageConcrete} />
+                <Route path="/page-ground" component={pageGround} />    
+            </Switch>
+        </BrowserRouter>
+
+    );
+};
 
 export default App;

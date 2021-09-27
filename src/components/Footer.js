@@ -155,10 +155,11 @@ export default function Footer() {
                             </h4>
                           </div>
                           <ul class="link">
-                            <li><a href="javascript:void(0)">Home</a></li>
-                            <li><a href="javascript:void(0)">Page</a></li>
-                            <li><a href="javascript:void(0)">Portfolio</a></li>
-                            <li><a href="javascript:void(0)">Blog</a></li>
+                            <li><a href="javascript:void(0)">Inicio</a></li>
+                            <li><a href="javascript:void(0)">Recursos</a></li>
+                            <li><a href="javascript:void(0)">Serviços</a></li>
+                            <li><a href="javascript:void(0)">Sobre Nós</a></li>
+                            <li><a href="javascript:void(0)">Clientes</a></li>
                             <li><a href="javascript:void(0)">Contact</a></li>
                           </ul>
                         </div>
@@ -176,12 +177,12 @@ export default function Footer() {
                         <h4 class="mb-8 text-2xl font-bold text-white">Contatos</h4>
                       </div>
                       <ul class="contact">
-                        <li class="mb-3 text-white">+809272561823</li>
+                        <li class="mb-3 text-white">(69) 3219-1142</li>
                         <li class="mb-3 text-white">info@gmail.com</li>
                         <li class="mb-3 text-white">www.yourweb.com</li>
                         <li class="mb-3 text-white">
-                          123 Stree New York City , United <br />
-                          States Of America 750.
+                        Rua Rio Candeias, 4171 B - Nova Esperança<br />
+                            Porto Velho - RO
                         </li>
                       </ul>
                     </div>
