@@ -21,7 +21,7 @@ export default function Footer() {
               style={{ backgroundImage: `url(${footerBg}` }}
             ></div>
             <div class="container px-4">
-              <div
+              {/* <div
                 class="
                   px-6
                   pt-10
@@ -39,9 +39,9 @@ export default function Footer() {
                 data-wow-duration="1s"
                 data-wow-delay="0.5s"
               >
-              </div>
+              </div> */}
               {/* <!-- subscribe area --> */}
-              <div class="footer-widget pb-[120px]">
+              <div class="footer-widget pb-[190px]">
                 <div class="flex flex-wrap">
                   <div class="w-4/5 md:w-3/5 lg:w-2/6">
                     <div
@@ -155,7 +155,7 @@ export default function Footer() {
                             </h4>
                           </div>
                           <ul class="link">
-                            <li><a href="javascript:void(0)">Inicio</a></li>
+                            <li><a href="#home">Inicio</a></li>
                             <li><a href="javascript:void(0)">Recursos</a></li>
                             <li><a href="javascript:void(0)">Serviços</a></li>
                             <li><a href="javascript:void(0)">Sobre Nós</a></li>

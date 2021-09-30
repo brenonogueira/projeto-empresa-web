@@ -17,13 +17,12 @@ import about10 from '../assets/images/clientes/10.png';
 
 export default function Clientes() {
     return (
-        <div>
+        
             <marquee behavior="scroll" scrollamount="9" direction="left" >
-                <img src={about1} width="210" height="124"/>
+                <div style={{display:'flex', flexDirection:'row'}}>
+                <img src={about1} width="210" height="124" style={{marginRight:50}}/>
                 <img src={about2} width="210" height="124"/>
-            </marquee>
-        </div>
-        
-        
+                </div>
+            </marquee>  
     )
 }

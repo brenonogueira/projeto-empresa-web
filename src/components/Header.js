@@ -1,5 +1,6 @@
 import React from "react";
 import logo from "../assets/images/logo/logo.svg";
+import "../assets/css/bobble.css";
 
 import bannerBg from "../assets/images/header/banner-bg.svg";
 import logoHeader from "../assets/images/header/bth-logo.jpeg";
@@ -143,33 +144,14 @@ export default function Header() {
                       </li>
                       <li className="nav-item">
                         <a className="page-scroll" href="#team">
-                        Equipe
-                        </a>
+                        Clientes</a>
                       </li>
                       
                     </ul>
                   </div>
 
-                  <div
-                    className="
-                      absolute
-                      right-0
-                      hidden
-                      mt-2
-                      mr-24
-                      navbar-btn
-                      sm:inline-block
-                      lg:mt-0 lg:static lg:mr-0
-                    "
-                  >
-                    <a
-                      className="main-btn gradient-btn"
-                      data-scroll-nav="0"
-                      href="javascript:void(0)"
-                      rel="nofollow"
-                    >
-                      Entrar
-                    </a>
+                  <div className="absolute right-0 hidden mt-2 mr-24 navbar-btn sm:inline-block lg:mt-0 lg:static lg:mr-0">
+                    <a className="main-btn gradient-btn" data-scroll-nav="0" href="javascript:void(0)"rel="nofollow">Entrar</a>
                   </div>
                 </nav>
               </div>
@@ -177,56 +159,27 @@ export default function Header() {
           </div>
         </div>
         
-        <div
-          id="home"
-          className="relative z-20 bg-bottom bg-no-repeat bg-cover"
+        <div id="home" 
+        className="relative z-20 bg-bottom bg-no-repeat bg-cover" 
           style={{ backgroundImage: `url(${bannerBg}` }}
         >
           <div className="container px-4">
             <div className="justify-center flex flex-wrap">
               <div className="w-full lg:w-2/3">
                 <div className="pt-32 mb-120 text-center lg:pt-48 header-hero-content">
-                  <h3
-                    className="
-                      text-4xl
-                      font-light
-                      font-bold
-                      leading-tight
-                      text-white
-                      header-sub-title
-                      wow
-                      fadeInUp
-                    "
-                    data-wow-duration="1.3s"
-                    data-wow-delay="0.2s"
-                  >
-                  BETONTECH
+                  <h3 className=" text-4xl font-light font-bold leading-tight text-white header-sub-title wow fadeInUp " data-wow-duration="1.3s" data-wow-delay="0.2s">
+                    BETONTECH
                   </h3>
                   
-                  <h2
-                    className="
-                      mb-3
-                      text-4xl
-                      
-                      text-white
-                      header-title
-                      wow
-                      fadeInUp
-                      mb-8
-                    "
-                    data-wow-duration="1.3s"
-                    data-wow-delay="0.5s"
-                  >
-                  A Betontech atua na area de consultoria e serviços especiais de engenharia civil. Sediada em Porto Velho-RO onde possui um laboratório central e laboratórios de campo nas principais obras do país. 
+                  <h2 className=" mb-3 text-4xl text-white header-title wow fadeInUp mb-8 " data-wow-duration="1.3s" data-wow-delay="0.5s">
+                    A Betontech atua na area de consultoria e serviços especiais de engenharia civil. Sediada em Porto Velho-RO onde possui um laboratório central e laboratórios de campo nas principais obras do país. 
                   </h2>
                   
                 </div>
-                
               </div>
             </div>
           </div>
         </div>
-        
       </header>
     </>
   );
