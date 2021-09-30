@@ -29,10 +29,9 @@ import about23 from '../assets/images/clientes/linha1.png';
 
 
 export default function Clientes() {
-    return (
-            
-            <marquee behavior="scroll" scrollamount="9" direction="left" >
-                <div style={{display:'flex', flexDirection:'row'}}>
+    return (            
+        <marquee behavior="scroll" scrollamount="9" direction="left" >
+            <div style={{display:'flex', flexDirection:'row'}}>
                 <img src={about1} width="210" height="124" style={{marginRight:50}}/>
                 <img src={about2} width="210" height="124" style={{marginRight:50}}/>
                 <img src={about3} width="210" height="124" style={{marginRight:50}}/>
@@ -56,6 +55,6 @@ export default function Clientes() {
                 <img src={about21} width="210" height="124" style={{marginRight:50}}/>
                 <img src={about22} width="210" height="124" style={{marginRight:50}}/>
             </div>
-            </marquee>  
+        </marquee>  
     )
 }
