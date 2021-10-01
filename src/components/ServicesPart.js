@@ -89,7 +89,7 @@ export default function ServicesPart() {
                   ></i>
                 </div>
                 <div className="mt-8 services-content">
-                  <h4 className="mb-8 text-xl font-bold text-gray-900">Concreto</h4>
+                  <h4 className="mb-8 text-xl font-bold text-gray-900 text-center">Concreto</h4>
                   <p className="mb-8">O concreto é um dos materiais mais importantes para a construção civil, composto por cimento, brita, areia e aditivos.</p>
                   <a
                     className="
@@ -162,7 +162,7 @@ export default function ServicesPart() {
                   ></i>
                 </div>
                 <div className="mt-8 services-content">
-                  <h4 className="mb-8 text-xl font-bold text-gray-900">
+                  <h4 className="mb-8 text-xl font-bold text-gray-900 text-center">
                     Asfalto
                   </h4>
                   <p className="mb-8" >Asfalto é um material betuminoso, escuro, de estrutura sólida, 
@@ -238,7 +238,7 @@ export default function ServicesPart() {
                   ></i>
                 </div>
                 <div className="mt-8 services-content">
-                  <h4 className="mb-8 text-xl font-bold text-gray-900">
+                  <h4 className="mb-8 text-xl font-bold text-gray-900 text-center">
                       Solo
                   </h4>
                   <p className="mb-8">
