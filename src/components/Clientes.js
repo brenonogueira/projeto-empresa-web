@@ -29,32 +29,35 @@ import about23 from '../assets/images/clientes/linha1.png';
 
 
 export default function Clientes() {
-    return (            
-        <marquee behavior="scroll" scrollamount="9" direction="left">
-            <div style={{display:'flex', flexDirection:'row', marginTop: '100px'}}>
-                <img src={about1} width="210" height="124" alt="img1" style={{marginRight:50}}/>
-                <img src={about2} width="210" height="124" alt="img1" style={{marginRight:50}}/>
-                <img src={about3} width="210" height="124"  alt="img1"style={{marginRight:50}}/>
-                <img src={about4} width="210" height="124" alt="img1" style={{marginRight:50}}/>
-                <img src={about5} width="210" height="124" alt="img1" style={{marginRight:50}}/>
-                <img src={about6} width="210" height="124" alt="img1" style={{marginRight:50}}/>
-                <img src={about7} width="210" height="124" alt="img1" style={{marginRight:50}}/>
-                <img src={about8} width="210" height="124" alt="img1" style={{marginRight:50}}/>
-                <img src={about9} width="210" height="124" alt="img1" style={{marginRight:50}}/>
-                <img src={about10} width="210" height="124" alt="img1" style={{marginRight:50}}/>
-                <img src={about11} width="210" height="124" alt="img1" style={{marginRight:50}}/>
-                <img src={about12} width="210" height="124" alt="img1" style={{marginRight:50}}/>
-                <img src={about13} width="210" height="124" alt="img1" style={{marginRight:50}}/>
-                <img src={about14} width="210" height="124" alt="img1" style={{marginRight:50}}/>
-                <img src={about15} width="210" height="124" alt="img1" style={{marginRight:50}}/>
-                <img src={about16} width="210" height="124" alt="img1" style={{marginRight:50}}/>
-                <img src={about17} width="210" height="124" alt="img1" style={{marginRight:50}}/>
-                <img src={about18} width="210" height="124" alt="img1" style={{marginRight:50}}/>
-                <img src={about19} width="210" height="124" alt="img1" style={{marginRight:50}}/>
-                <img src={about20} width="210" height="124" alt="img1" style={{marginRight:50}}/>
-                <img src={about21} width="210" height="124" alt="img1" style={{marginRight:50}}/>
-                <img src={about22} width="210" height="124" alt="img1" style={{marginRight:50}}/>
-            </div>
-        </marquee>  
+    return (  
+        <>
+            <hr style={{marginTop:'50px', border:'1px solid'}}/>          
+                <marquee behavior="scroll" scrollamount="9" direction="left">
+                    <div style={{display:'flex', flexDirection:'row', marginTop: '10px'}}>                
+                        <img src={about1} width="210" height="124" alt="img1" style={{marginRight:50}}/>
+                        <img src={about2} width="210" height="124" alt="img1" style={{marginRight:50}}/>
+                        <img src={about3} width="210" height="124"  alt="img1"style={{marginRight:50}}/>
+                        <img src={about4} width="210" height="124" alt="img1" style={{marginRight:50}}/>
+                        <img src={about5} width="210" height="124" alt="img1" style={{marginRight:50}}/>
+                        <img src={about6} width="210" height="124" alt="img1" style={{marginRight:50}}/>
+                        <img src={about7} width="210" height="124" alt="img1" style={{marginRight:50}}/>
+                        <img src={about8} width="210" height="124" alt="img1" style={{marginRight:50}}/>
+                        <img src={about9} width="210" height="124" alt="img1" style={{marginRight:50}}/>
+                        <img src={about10} width="210" height="124" alt="img1" style={{marginRight:50}}/>
+                        <img src={about11} width="210" height="124" alt="img1" style={{marginRight:50}}/>
+                        <img src={about12} width="210" height="124" alt="img1" style={{marginRight:50}}/>
+                        <img src={about13} width="210" height="124" alt="img1" style={{marginRight:50}}/>
+                        <img src={about14} width="210" height="124" alt="img1" style={{marginRight:50}}/>
+                        <img src={about15} width="210" height="124" alt="img1" style={{marginRight:50}}/>
+                        <img src={about16} width="210" height="124" alt="img1" style={{marginRight:50}}/>
+                        <img src={about17} width="210" height="124" alt="img1" style={{marginRight:50}}/>
+                        <img src={about18} width="210" height="124" alt="img1" style={{marginRight:50}}/>
+                        <img src={about19} width="210" height="124" alt="img1" style={{marginRight:50}}/>
+                        <img src={about20} width="210" height="124" alt="img1" style={{marginRight:50}}/>
+                        <img src={about21} width="210" height="124" alt="img1" style={{marginRight:50}}/>
+                        <img src={about22} width="210" height="124" alt="img1" style={{marginRight:50}}/>
+                    </div>
+                </marquee>  
+        </>
     )
 }
