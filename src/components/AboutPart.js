@@ -42,7 +42,7 @@ export default function AboutPart() {
                 conferindo os resultados com os de laboratório, dentro das especificações,
                 Ensaio embasado na ABNT NBR 7185:2016.
                 </p>
-                <a href="javascript:void(0)" class="main-btn gradient-btn"
+                <a href="javascript:void(0)" class="main-btn gradient-btn "
                   >Saiba mais</a>
               </div>
 

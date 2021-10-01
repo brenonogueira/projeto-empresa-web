@@ -11,11 +11,19 @@ import ScriptTag from "react-script-tag";
 export default function Header() {
   return (
     <>
-      <ScriptTag
-        isHydrating={true}
-        type="text/javascript"
-        src="../src/assets/js/particles.min.js"
-      />
+    <div id="background-wrap">
+    <div class="bubble x1"></div>
+    <div class="bubble x2"></div>
+    <div class="bubble x3"></div>
+    <div class="bubble x4"></div>
+    <div class="bubble x5"></div>
+    <div class="bubble x6"></div>
+    <div class="bubble x7"></div>
+    <div class="bubble x8"></div>
+    <div class="bubble x9"></div>
+    <div class="bubble x10"></div>
+</div>
+
       <header className="header-area z-10">
         <div
           className="
@@ -40,9 +48,11 @@ export default function Header() {
                     navbar navbar-expand-lg
                   "
                 >
+              
                   <a className="mr-4 navbar-brand" href="index.html">
                     <img src={logo} alt="Logo" />
                   </a>
+                
                   <button
                     className="block navbar-toggler focus:outline-none lg:hidden"
                     type="button"
@@ -161,10 +171,11 @@ export default function Header() {
           </div>
         </div>
         
-        <div id="home" 
-        className="relative z-20 bg-bottom bg-no-repeat bg-cover" 
+        <div id="home" className="relative z-55 bg-bottom bg-no-repeat bg-cover" 
           style={{ backgroundImage: `url(${bannerBg}` }}
+        
         >
+        
           <div className="container px-4">
             <div className="justify-center flex flex-wrap">
               <div className="w-full lg:w-2/3">

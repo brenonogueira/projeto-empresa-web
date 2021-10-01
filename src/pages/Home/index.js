@@ -16,10 +16,10 @@ import TeamPart from '../../components/TeamPart';
 import Footer from '../../components/Footer';
 import Clientes from '../../components/Clientes';
 
-
 export default function index() {
     return (
         <div>
+            
         <Header/>
         <BrandPart/>
         <ServicesPart/>

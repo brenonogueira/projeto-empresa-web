@@ -1,11 +1,12 @@
 body {
-	background: #00b4ff;
+	background: #0000;
 	color: #333;
 	font: 100% Lato, Arial, Sans Serif;
 	height: 100vh;
 	margin: 0;
 	padding: 0;
 	overflow-x: hidden;
+	z-index: -1;
 }
 
 #background-wrap {
@@ -212,9 +213,9 @@ body {
 	-moz-border-radius: 50%;
 	border-radius: 50%;
 	
-    -webkit-box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2), inset 0px 10px 30px 5px rgba(255, 255, 255, 1);
-	-moz-box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2), inset 0px 10px 30px 5px rgba(255, 255, 255, 1);
-	box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2), inset 0px 10px 30px 5px rgba(255, 255, 255, 1);
+    -webkit-box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2), inset 0px 10px 30px 5px rgb(4, 66, 180);
+	-moz-box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2), inset 0px 10px 30px 5px rgb(4, 66, 180);
+	box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2), inset 0px 10px 30px 5px rgb(4, 66, 180);
 	
     height: 200px;
 	position: absolute;
