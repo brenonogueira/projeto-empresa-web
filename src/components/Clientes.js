@@ -57,7 +57,8 @@ export default function Clientes() {
                         <img src={about21} width="210" height="124" alt="img1" style={{marginRight:50}}/>
                         <img src={about22} width="210" height="124" alt="img1" style={{marginRight:50}}/>
                     </div>
-                </marquee>  
+                </marquee>
+                <hr style={{marginTop:'50px', border:'1px solid'}}/> 
         </>
     )
 }
