@@ -100,15 +100,17 @@ export default function Header() {
                       px-5
                       py-3
                       duration-300
-                      bg-white
                       shadow
                       lg:w-auto
                       collapse
                       navbar-collapse
                       lg:block
                       top-full
-                      lg:static lg:bg-transparent lg:shadow-none
+                      sticky-top-0 z-5
+                      lg:static lg:bg-whitet lg:shadow-none
+                      
                     "
+                    style={{backgroundColor: ' #00b4ff', color: '#6610f2'}}
                     id="navbarOne"
                   >
                     <ul
