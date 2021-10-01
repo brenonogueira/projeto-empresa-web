@@ -176,16 +176,17 @@ export default function Header() {
         
         >
         
-          <div className="container px-4">
+          <div className="container px-4" >
             <div className="justify-center flex flex-wrap">
               <div className="w-full lg:w-2/3">
-                <div className="pt-32 mb-120 text-center lg:pt-48 header-hero-content">
+                <div className="pt-32 mb-120 text-center lg:pt-48 header-hero-content" style={{marginBottom:'250px'}}>
                   <h3 className=" text-4xl font-light font-bold leading-tight text-white header-sub-title wow fadeInUp " data-wow-duration="1.3s" data-wow-delay="0.2s">
                     BETONTECH
                   </h3>
                   
                   <h2 className=" mb-3 text-4xl text-white header-title wow fadeInUp mb-8 " data-wow-duration="1.3s" data-wow-delay="0.5s">
                     A Betontech atua na area de consultoria e serviços especiais de engenharia civil. Sediada em Porto Velho-RO onde possui um laboratório central e laboratórios de campo nas principais obras do país. 
+              
                   </h2>
                   
                 </div>
