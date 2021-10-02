@@ -11,44 +11,25 @@ import ScriptTag from "react-script-tag";
 export default function Header() {
   return (
     <>
-    <div id="background-wrap">
-    <div class="bubble x1"></div>
-    <div class="bubble x2"></div>
-    <div class="bubble x3"></div>
-    <div class="bubble x4"></div>
-    <div class="bubble x5"></div>
-    <div class="bubble x6"></div>
-    <div class="bubble x7"></div>
-    <div class="bubble x8"></div>
-    <div class="bubble x9"></div>
-    <div class="bubble x10"></div>
-</div>
+      <div id="background-wrap">
+        <div class="bubble x1"></div>
+        <div class="bubble x2"></div>
+        <div class="bubble x3"></div>
+        <div class="bubble x4"></div>
+        <div class="bubble x5"></div>
+        <div class="bubble x6"></div>
+        <div class="bubble x7"></div>
+        <div class="bubble x8"></div>
+        <div class="bubble x9"></div>
+        <div class="bubble x10"></div>
+      </div>
 
       <header className="header-area z-10">
-        <div
-          className="
-            navbar-area
-            absolute
-            top-0
-            left-0
-            z-[999]
-            w-full
-            duration-300
-            bg-transparent
-          "
-        >
+        <div className=" navbar-area absolute top-0 left-0 z-[999] w-full duration-300 bg-transparent">
           <div className="container px-4 lg:py-0 py-5 relative">
             <div className="flex flex-wrap">
               <div className="w-full">
-                <nav
-                  className="
-                    flex
-                    items-center
-                    justify-between
-                    navbar navbar-expand-lg
-                  "
-                >
-              
+                <nav className="flex items-center justify-between navbar navbar-expand-lg">
                   <a className="mr-4 navbar-brand" href="index.html">
                     <img src={logo} alt="Logo" />
                   </a>
@@ -123,42 +104,26 @@ export default function Header() {
                     style={{backgroundColor: ' #00b4ff', color: '#6610f2'}}
                     id="navbarOne"
                   >
-                    <ul
-                      id="nav"
-                      className="
-                        items-center
-                        content-start
-                        mr-auto
-                        lg:justify-end
-                        navbar-nav
-                        lg:flex
-                      "
-                    >
+                    <ul id="nav" className=" items-center content-start mr-auto lg:justify-end navbar-nav lg:flex">
                       <li className="nav-item active">
-                        <a className="page-scroll" href="#home">
-                        Inicio
-                        </a>
+                        <a className="page-scroll" href="#home"> Inicio </a>
                       </li>
+
                       <li className="nav-item">
-                        <a className="page-scroll" href="#features">
-                        Recursos
-                        </a>
+                        <a className="page-scroll" href="#recursos">Recursos </a>
                       </li>
+
                       <li className="nav-item">
-                        <a className="page-scroll" href="#about">
-                        Serviços
-                        </a>
+                        <a className="page-scroll" href="#about"> Serviços </a>
                       </li>
+
                       <li className="nav-item">
-                        <a className="page-scroll" href="#facts">
-                        Sobre Nós
-                        </a>
+                        <a className="page-scroll" href="#facts"> Sobre Nós </a>
                       </li>
+
                       <li className="nav-item">
-                        <a className="page-scroll" href="#team">
-                        Clientes</a>
+                        <a className="page-scroll" href="#team"> Clientes </a>
                       </li>
-                      
                     </ul>
                   </div>
 
@@ -171,11 +136,7 @@ export default function Header() {
           </div>
         </div>
         
-        <div id="home" className="relative z-55 bg-bottom bg-no-repeat bg-cover" 
-          style={{ backgroundImage: `url(${bannerBg}` }}
-        
-        >
-        
+        <div id="home" className="relative z-55 bg-bottom bg-no-repeat bg-cover" style={{ backgroundImage: `url(${bannerBg}` }} >
           <div className="container px-4" >
             <div className="justify-center flex flex-wrap">
               <div className="w-full lg:w-2/3">
@@ -186,7 +147,6 @@ export default function Header() {
                   
                   <h2 className=" mb-3 text-4xl text-white header-title wow fadeInUp mb-8 " data-wow-duration="1.3s" data-wow-delay="0.5s">
                     A Betontech atua na area de consultoria e serviços especiais de engenharia civil. Sediada em Porto Velho-RO onde possui um laboratório central e laboratórios de campo nas principais obras do país. 
-              
                   </h2>
                   
                 </div>

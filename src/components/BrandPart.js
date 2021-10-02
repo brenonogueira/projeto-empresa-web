@@ -7,7 +7,6 @@ import img4 from "../assets/images/carrocel/img4.png";
 import img5 from "../assets/images/carrocel/img5.png";
 
 
-
 export default function BrandPart() {
   return (
     <div>

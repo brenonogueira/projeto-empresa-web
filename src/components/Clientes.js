@@ -31,7 +31,8 @@ import about23 from '../assets/images/clientes/linha1.png';
 export default function Clientes() {
     return (  
         <>
-            <hr style={{marginTop:'50px', border:'1px solid'}}/>          
+            <h3 className="text-[32px] pt-2 font-bold text-center "> Clientes</h3>
+            <hr style={{marginTop:'40px', border:'1px solid'}}/>     
                 <marquee behavior="scroll" scrollamount="9" direction="left">
                     <div style={{display:'flex', flexDirection:'row', marginTop: '10px'}}>                
                         <img src={about1} width="210" height="124" alt="img1" style={{marginRight:50}}/>

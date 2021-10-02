@@ -8,7 +8,7 @@ import ServicesShape3 from "../assets/images/services/services-shape-3.svg";
 export default function ServicesPart() {
   return (
     <div>
-      <section id="features" className="services-area pt-[120px]">
+      <section id="recursos" className="services-area pt-[120px]">
         <div className="container px-4">
           <div className="justify-center flex flex-wrap">
             <div className="w-full lg:w-2/3">
