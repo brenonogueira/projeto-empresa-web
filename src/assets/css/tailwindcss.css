@@ -26,8 +26,19 @@ Use a more readable tab size (opinionated).
 html {
   -moz-tab-size: 4;
   -o-tab-size: 4;
-     tab-size: 4;
+      tab-size: 4;
 }
+.navbar-area {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 99;
+  -webkit-transition: all 0.3s ease-out 0s;
+  -moz-transition: all 0.3s ease-out 0s;
+  -ms-transition: all 0.3s ease-out 0s;
+  -o-transition: all 0.3s ease-out 0s;
+  transition: all 0.3s ease-out 0s; }
 
 /**
 1. Correct the line height in all browsers.
@@ -776,7 +787,7 @@ video {
 }
 
 .mt-12{
-  margin-top: 3rem;
+  margin-top: 3 rem;
 }
 
 .mb-4{

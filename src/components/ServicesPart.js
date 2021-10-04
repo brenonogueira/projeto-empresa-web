@@ -98,7 +98,7 @@ export default function ServicesPart() {
                     hover:tracking-wider
                     duration-300
                   "
-                    href="javascript:void(0)"
+                    href="/page-concrete"
                   >
                     Saiba mais
                     <i className="ml-2 lni lni-chevron-right text-sm font-bold"></i>
@@ -174,7 +174,7 @@ export default function ServicesPart() {
                     hover:tracking-wider
                     duration-300
                   "
-                    href="javascript:void(0)"
+                    href="page-asphalt"
                   >
                     Saiba mais
                     <i className="ml-2 lni lni-chevron-right text-sm font-bold"></i>
@@ -252,7 +252,7 @@ export default function ServicesPart() {
                     hover:tracking-wider
                     duration-300
                   "
-                    href="javascript:void(0)"
+                    href="page-ground"
                   >
                     Saiba mais
                     <i className="ml-2 lni lni-chevron-right text-sm font-bold"></i>

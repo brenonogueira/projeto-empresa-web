@@ -26,7 +26,7 @@ export default function AboutPart() {
                   conferindo os resultados com os de laboratório, dentro das especificações,
                   Ensaio embasado na ABNT NBR 7185:2016.
                   </p>
-                  <a href="javascript:void(0)" class="main-btn gradient-btn ">Saiba mais</a>
+                  <a href="page-ground" class="main-btn gradient-btn ">Saiba mais</a>
                 </div>
               </div>
               <div class="w-full lg:w-1/2">
@@ -60,7 +60,7 @@ export default function AboutPart() {
                   laboratorial que busca redução de patologias na malha
                   rodoviária, reduzindo gastos com reparos e manutenções.
                   </p>
-                  <a href="javascript:void(0)" class="main-btn gradient-btn">Saiba mais </a>
+                  <a href="page-asphalt" class="main-btn gradient-btn">Saiba mais </a>
                 </div>
                 {/* <!-- about content --> */}
               </div>
@@ -95,7 +95,7 @@ export default function AboutPart() {
                   Normatizados pela NBR – 7180-84 – “Solo – Determinação do Limite de Plasticidade – 
                   Método de ensaio” e NBR 6459 – ABNT – “Solo – Determinação do Limite de Liquidez”    
                   </p>
-                  <a href="javascript:void(0)" class="main-btn gradient-btn"
+                  <a href="page-ground" class="main-btn gradient-btn"
                     >Saiba mais</a>
                 </div>
               </div>
@@ -126,7 +126,7 @@ export default function AboutPart() {
                   especificações técnicas ABNT NBR NM 67:1998, ABNT NBR 5738:2015. Garantindo
                   exatidão nos serviços prestados.
                   </p>
-                  <a href="javascript:void(0)" class="main-btn gradient-btn"> Saiba mais </a>
+                  <a href="page-concrete" class="main-btn gradient-btn"> Saiba mais </a>
                 </div>
                 {/* <!-- about content --> */}
               </div>

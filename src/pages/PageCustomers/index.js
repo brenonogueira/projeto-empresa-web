@@ -1,9 +1,8 @@
-import React from 'react'
+import react from "react";
 
-export default function index() {
+function Customers(){
     return (
-        <div>
-            
-        </div>
-    )
-}
+        <h1>Page Customers</h1>
+    );
+};
+export default Customers;
