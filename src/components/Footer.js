@@ -9,7 +9,7 @@ export default function Footer() {
         <div class="container px-4">
           <div class="footer-bg absolute bottom-0 left-0 w-full h-full bg-top bg-no-repeat bg-cover z-[-1]" style={{ backgroundImage: `url(${footerBg}`}} ></div>
             <div class="footer-widget">
-              <div class="flex flex-wrap" style={{marginBottom:'250px'}}>
+              <div class="flex flex-wrap" >
                 <div class="col-lg-4 col-md-6 col-sm-8">
                   <div class="mt-12 footer-about wow fadeIn" data-wow-duration="1s" data-wow-delay="0.2s" >
                     <a class="inline-block mb-8 logo" href="#home">
@@ -95,7 +95,7 @@ export default function Footer() {
                     </div>
                     <ul class="contact">
                       <li class="mb-3 text-white">(69) 3219-1142</li>
-                      <li class="mb-3 text-white">info@gmail.com</li>
+                      <li class="mb-3 text-white">contato@betontech.com.br</li>
                       <li class="mb-3 text-white">www.yourweb.com</li>
                       <li class="mb-3 text-white"> Rua Rio Candeias, 4171 B - Nova Esperança <br /> Porto Velho - RO
                       </li>

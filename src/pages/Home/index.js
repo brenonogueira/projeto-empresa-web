@@ -8,7 +8,8 @@ import '../../assets/css/tiny-slider.css'
 import '../../assets/css/glightbox.min.css'
 import '../../assets/css/lineicons.css'
 import '../../assets/css/tailwindcss.css'
-import Header from '../../components/Header'
+import NavbarHeader from '../../components/NavbarHeader'
+import Header from '../../components/Header';
 import BrandPart from '../../components/BrandPart';
 import ServicesPart from '../../components/ServicesPart';
 import AboutPart from '../../components/AboutPart';
@@ -19,14 +20,13 @@ import Clientes from '../../components/Clientes';
 export default function index() {
     return (
         <div>
-            
-        <Header/>
-        <BrandPart/>
-        <ServicesPart/>
-        <AboutPart/>
-        <Clientes/>
-        <Footer/>
-        
+            <NavbarHeader/>
+            <Header/>
+            <BrandPart/>
+            <ServicesPart/>
+            <AboutPart/>
+            <Clientes/>
+            <Footer/>
         </div>
     )
 }
