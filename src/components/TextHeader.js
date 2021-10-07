@@ -5,7 +5,7 @@ export default function TextHeader() {
     <div className="justify-center flex flex-wrap" >
       <div className="w-full lg:w-2/3" >
         <h3
-          className=" text-4xl font-light font-bold leading-tight  header-sub-title wow fadeInUp"
+          className=" text-4xl font-light font-bold leading-tight text-center  header-sub-title wow fadeInUp"
           data-wow-duration="1.3s"
           data-wow-delay="0.2s"
         >

@@ -25,19 +25,19 @@ export const NavbarHeader = () => {
                                     <div className="collapse navbar-collapse sub-menu-bar"id="navbarOne">
                                         <ul id="nav" className="navbar-nav ml-auto">
                                             <li className="nav-item active">
-                                                <a className="page-scroll" href="#home"> Inicio </a>
+                                                <a className="page-scroll" href="/"> Inicio </a>
                                             </li>
 
                                             <li className="nav-item">
-                                                <a className="page-scroll" href="#recursos">Recursos </a>
+                                                <a className="page-scroll" href="/#recursos">Recursos </a>
                                             </li>
 
                                             <li className="nav-item">
-                                                <a className="page-scroll" href="#about"> Serviços </a>
+                                                <a className="page-scroll" href="/#about"> Serviços </a>
                                             </li>
 
                                             <li className="nav-item">
-                                                <a className="page-scroll" href="#facts"> Sobre Nós </a>
+                                                <a className="page-scroll" href="/#facts"> Sobre Nós </a>
                                             </li>
 
                                             <li className="nav-item">
