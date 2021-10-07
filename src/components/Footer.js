@@ -8,7 +8,7 @@ export default function Footer() {
       <footer id="footer" class="relative z-10 footer-area pt-[120px] ">
         <div class="container px-4">
           <div class="footer-bg absolute bottom-0 left-0 w-full h-full bg-top bg-no-repeat bg-cover z-[-1]" style={{ backgroundImage: `url(${footerBg}`}} ></div>
-            <div class="footer-widget">
+            <div class="footer-widget" style={{ marginTop: '225px' }}>
               <div class="flex flex-wrap" >
                 <div class="col-lg-4 col-md-6 col-sm-8">
                   <div class="mt-12 footer-about wow fadeIn" data-wow-duration="1s" data-wow-delay="0.2s" >
