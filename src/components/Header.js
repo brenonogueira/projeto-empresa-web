@@ -25,13 +25,10 @@ export default function Header({ text }) {
           <div className="container" >
             <div className="justify-center flex flex-wrap">
               <div className="w-full lg:w-2/3">
-              <div className="pt-32 mb-120 text-center lg:pt-40 header-hero-content" style={{marginBottom:'200px'}}>
-
+                <div className="pt-32 mb-120 text-center lg:pt-40 header-hero-content" style={{marginBottom:'200px'}}></div>
               </div>
             </div>
           </div>
-          </div>
-          <div id="particles-1" class="particles"></div>
         </div>
 
     </>

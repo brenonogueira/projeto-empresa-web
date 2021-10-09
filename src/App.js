@@ -7,6 +7,7 @@ import pageGround from './pages/PageGround';
 import pageLogin from './pages/PageLogin';
 import pageCustomers from './pages/PageCustomers';
 import Layout from './components/Layout/Layout';
+import pageAbautUs from './pages/PageAbautUs/index';
 
 function App(){
     return(
@@ -19,6 +20,7 @@ function App(){
                 <Route path="/page-ground" component={pageGround} />    
                 <Route path="/page-login" component={pageLogin} />    
                 <Route path="/page-customers" component={pageCustomers} />    
+                <Route path="/page-abautUs" component={pageAbautUs} />    
             </Layout>
             </Switch>
         </BrowserRouter>

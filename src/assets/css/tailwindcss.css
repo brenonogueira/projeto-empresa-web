@@ -1012,7 +1012,13 @@ video {
 }
 
 .bg-gradient-to-r{
-  background-image: linear-gradient(to right, var(--tw-gradient-stops));
+ 
+  background-image: linear-gradient(
+    to right,
+    #3538d1 0%,
+    #64adf1 50%,
+    #1140da 100%
+  );
 }
 
 .from-\[\#fe6e9a\]{
@@ -1801,3 +1807,8 @@ p {
     box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
   }
 }
+
+.img-200-200 {
+  width: 200px; 
+}
+

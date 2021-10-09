@@ -165,7 +165,7 @@ export default function ServicesPart() {
                   <h4 className="mb-8 text-xl font-bold text-gray-900 text-center">
                     Asfalto
                   </h4>
-                  <p className="mb-8" >Asfalto é um material betuminoso, escuro, de estrutura sólida, 
+                  <p className="mb-8" > O asfalto tem as características de um material betuminoso, escuro, de estrutura sólida, 
                   sendo resíduo da destilação a vácuo do petróleo bruto.</p>
                   <a
                     className="
@@ -242,8 +242,7 @@ export default function ServicesPart() {
                       Solo
                   </h4>
                   <p className="mb-8">
-                  Um determinado tipo de solo pode facilitar ou mesmo limitar o uso do terreno.
-                  E, no caso de ser um limitador, ele pode trazer muita dor de cabeça ao arquiteto, engenheiro e proprietário, caso não seja muito bem trabalhado.
+                  Um determinado solo pode facilitar ou mesmo limitar o uso do terreno, ele pode trazer dor de cabeça engenheiro e proprietário, caso não seja trabalhado.
                   </p>
                   <a
                     className="

@@ -77,10 +77,10 @@ export default function Footer() {
                         </div>
                         <ul class="link">
                           <li><a href="#home">Inicio</a></li>
-                          <li><a href="javascript:void(0)">Recursos</a></li>
-                          <li><a href="javascript:void(0)">Serviços</a></li>
-                          <li><a href="javascript:void(0)">Sobre Nós</a></li>
-                          <li><a href="javascript:void(0)">Clientes</a></li>
+                          <li><a href="/#recursos">Recursos</a></li>
+                          <li><a href="/#about">Serviços</a></li>
+                          <li><a href="/page-abautUs">Sobre Nós</a></li>
+                          <li><a href="page-customers">Clientes</a></li>
                           <li><a href="javascript:void(0)">Contact</a></li>
                         </ul>
                       </div>
@@ -96,7 +96,7 @@ export default function Footer() {
                     <ul class="contact">
                       <li class="mb-3 text-white">(69) 3219-1142</li>
                       <li class="mb-3 text-white">contato@betontech.com.br</li>
-                      <li class="mb-3 text-white">www.yourweb.com</li>
+                      <li class="mb-3 text-white">www.betontech.com</li>
                       <li class="mb-3 text-white"> Rua Rio Candeias, 4171 B - Nova Esperança <br /> Porto Velho - RO
                       </li>
                     </ul>
