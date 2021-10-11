@@ -13,7 +13,6 @@ import Header from "../../components/Header";
 import BrandPart from "../../components/BrandPart";
 import ServicesPart from "../../components/ServicesPart";
 import AboutPart from "../../components/AboutPart";
-import TeamPart from "../../components/TeamPart";
 import Footer from "../../components/Footer";
 import Clientes from "../../components/Clientes";
 import TextHeader from "../../components/TextHeader";
