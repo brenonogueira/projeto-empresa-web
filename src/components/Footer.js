@@ -1,4 +1,5 @@
 import React from 'react'
+
 import footerBg from '../assets/images/footer/footer-bg.svg'
 import logo from "../assets/images/logo/logo.svg";
 
@@ -7,8 +8,11 @@ export default function Footer() {
     <div>
       <footer id="footer" class="relative z-10 footer-area pt-[120px] ">
         <div class="container px-4">
-          <div class="footer-bg absolute bottom-0 left-0 w-full h-full bg-top bg-no-repeat bg-cover z-[-1]" style={{ backgroundImage: `url(${footerBg}`}} ></div>
-            <div class="footer-widget" style={{ marginTop: '225px' }}>
+          <div  class="footer-bg absolute bottom-0 left-0 w-full h-full bg-top bg-no-repeat bg-cover z-[-1]" 
+                style={{ backgroundImage: `url(${footerBg}`}}>
+          </div>
+            <div  class="footer-widget" 
+                  style={{ marginTop: '225px' }}>
               <div class="flex flex-wrap" >
                 <div class="col-lg-4 col-md-6 col-sm-8">
                   <div class="mt-12 footer-about wow fadeIn" data-wow-duration="1s" data-wow-delay="0.2s" >
@@ -37,7 +41,6 @@ export default function Footer() {
                       </li>
                     </ul>
                   </div>
-                  {/* <!-- footer about --> */}
                 </div>
                 
                 <div class="w-4/5 sm:w-2/3 md:w-3/5 lg:w-2/6">
@@ -61,7 +64,6 @@ export default function Footer() {
                           <li><a href="javascript:void(0)">Pricing</a></li>
                         </ul>
                       </div>
-                      {/* <!-- footer wrapper --> */}
                     </div>
 
                     <div class="w-full sm:w-1/2 md:w-1/2 lg:w-1/2">
@@ -84,10 +86,10 @@ export default function Footer() {
                           <li><a href="javascript:void(0)">Contact</a></li>
                         </ul>
                       </div>
-                      {/* <!-- footer wrapper --> */}
                     </div>
                   </div>
                 </div>
+
                 <div class="w-4/5 sm:w-1/3 md:w-2/5 lg:w-2/6">
                   <div class="mt-12 footer-contact wow fadeIn" data-wow-duration="1s" data-wow-delay="0.8s">
                     <div class="footer-title">
@@ -105,17 +107,12 @@ export default function Footer() {
               </div>
               </div>
             </div>
-            {/* <!-- footer widget --> */}
             <div class="py-8 border-t border-gray-100 footer-copyright">
               <p class="text-white text-center "> COPYRIGHT © BETONTECH </p>
-            {/* <!-- footer copyright --> */}
           </div>
       </footer>
-      {/* <!--====== BACK TOP TOP PART START ======--> */}
-
+      
     <a href="#" class="back-to-top"><i class="lni lni-chevron-up"></i></a>
-
-    {/* <!--====== BACK TOP TOP PART ENDS ======-->    */}
 
     </div>
   )

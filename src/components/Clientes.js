@@ -24,16 +24,19 @@ import about19 from '../assets/images/clientes/19.png';
 import about20 from '../assets/images/clientes/20.png';
 import about21 from '../assets/images/clientes/21.png';
 import about22 from '../assets/images/clientes/22.png';
-import about23 from '../assets/images/clientes/linha1.png';
-
-
+import about23 from '../assets/images/clientes/23.png';
+import about25 from '../assets/images/clientes/25.png';
+import about26 from '../assets/images/clientes/26.png';
 
 export default function Clientes() {
     return (  
         <>
-            <h3 className="text-[32px] pt-2 font-bold text-center "> Clientes</h3>
-            <hr style={{marginTop:'40px', border:'1px solid'}}/>     
-                <marquee behavior="scroll" scrollamount="9" direction="left">
+            <h3 className="text-[32px] pt-2 font-bold text-center " 
+                style={{marginTop:'50px'}}>Clientes
+            </h3>
+            <hr className="m-auto w-400 h-1 mb-3 bg-gradient-to-r to-[#fe8464] from-[#fe6e9a]" 
+                style={{marginTop:'40px'}}/>     
+                <marquee behavior="scroll" scrollamount="19" direction="left">
                     <div style={{display:'flex', flexDirection:'row', marginTop: '10px'}}>                
                         <img src={about1} width="210" height="124" alt="img1" style={{marginRight:50}}/>
                         <img src={about2} width="210" height="124" alt="img1" style={{marginRight:50}}/>
@@ -57,9 +60,13 @@ export default function Clientes() {
                         <img src={about20} width="210" height="124" alt="img1" style={{marginRight:50}}/>
                         <img src={about21} width="210" height="124" alt="img1" style={{marginRight:50}}/>
                         <img src={about22} width="210" height="124" alt="img1" style={{marginRight:50}}/>
+                        <img src={about23} width="210" height="124" alt="img1" style={{marginRight:50}}/>
+                        <img src={about25} width="210" height="124" alt="img1" style={{marginRight:50}}/>
+                        <img src={about26} width="210" height="124" alt="img1" style={{marginRight:50}}/>
                     </div>
                 </marquee>
-                <hr style={{marginTop:'50px', border:'1px solid'}}/> 
+            <hr className="m-auto w-400 h-1 mb-3 bg-gradient-to-r to-[#fe8464] from-[#fe6e9a]" 
+                style={{marginTop:'40px'}}/> 
         </>
     )
 }

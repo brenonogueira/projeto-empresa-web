@@ -15,8 +15,7 @@ export default function BrandPart() {
         className="carousel slide carousel-fade mt-5 "
         data-ride="carousel"
         data-wow-duration="0.1s"
-        data-wow-delay="1.0s"
-      >
+        data-wow-delay="1.0s">
         <div className="carousel-inner ">
           <div className="carousel-item active d-flex justify-content-center">
             <img src={img1} classNameName="w-99" alt="..." />

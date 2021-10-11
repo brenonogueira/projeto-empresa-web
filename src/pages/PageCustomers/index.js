@@ -22,6 +22,13 @@ import img19 from '../../assets/images/clientes/19.png';
 import img20 from '../../assets/images/clientes/20.png';
 import img21 from '../../assets/images/clientes/21.png';
 import img22 from '../../assets/images/clientes/22.png';
+import img23 from '../../assets/images/clientes/23.png';
+import img25 from '../../assets/images/clientes/25.png';
+import img26 from '../../assets/images/clientes/26.png';
+import img27 from '../../assets/images/clientes/27.png';
+import img28 from '../../assets/images/clientes/28.png';
+import img29 from '../../assets/images/clientes/29.png';
+
 
 function Customers(){
   return (
@@ -57,7 +64,6 @@ function Customers(){
             <img src={img9} class="w-10 mb-2"/>
             <img src={img10} class="w-10  mb-2"/>
           </div>
-          
         </div>
 
         <div className="row" style={{marginTop:'2px', marginLeft:'10%'}}> 
@@ -85,13 +91,27 @@ function Customers(){
             <img src={img19} class="w-10 mb-2"/>
             <img src={img20} class="w-10  mb-2"/>
           </div>
-
         </div>
 
         <div className="row" style={{marginTop:'2px', marginLeft:'10%'}}> 
-          <div class="col-lg-2 col-md-12 mb-2 mb-lg-0">
+          <div class="col-lg-2 col-md-12 mb-2 mb-lg-0 a.image_container">
             <img src={img21} class="w-10  mb-2" />
             <img src={img22} class="w-10  mb-2" />
+          </div>
+
+          <div class="col-lg-2 col-md-12 mb-2 mb-lg-0 a.image_container">
+            <img src={img23} class="w-10  mb-2" />
+            <img src={img29} class="w-10 mb-2" /> 
+          </div> 
+
+          <div class="col-lg-2 col-md-12 mb-2 mb-lg-0">
+          <img src={img25} class="w-10 mb-2" /> 
+            <img src={img26} class="w-10 mb-2'" />
+          </div>
+
+          <div class="col-lg-2 col-md-12 mb-2 mb-lg-0 a.image_container">
+            <img src={img27} class="w-10  mb-2" />
+            <img src={img28} class="w-10  mb-2" />
           </div>
         </div>
       </div>

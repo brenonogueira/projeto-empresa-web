@@ -25,8 +25,7 @@ export default function ServicesPart() {
                 "
                 ></div>
                 <h3 className="text-[32px] pt-2 font-bold">
-                Nossos recursos, <span>Serviços com qualidade e pontualidade.
-                  </span>
+                Nossos recursos
                 </h3>
               </div>
             </div>
@@ -59,8 +58,7 @@ export default function ServicesPart() {
                   <img
                     className="duration-300 shape group-hover:rotate-[25deg]"
                     src={ServicesShape}
-                    alt="shape"
-                  />
+                    alt="shape"/>
                   <img
                     className="
                     duration-300
@@ -84,10 +82,9 @@ export default function ServicesPart() {
                     justify-center
                     w-full
                     h-full
-                    text-3xl text-white
-                  "
-                  ></i>
+                    text-3xl text-white "></i>
                 </div>
+
                 <div className="mt-8 services-content">
                   <h4 className="mb-8 text-xl font-bold text-gray-900 text-center">Concreto</h4>
                   <p className="mb-8">O concreto é um dos materiais mais importantes para a construção civil, composto por cimento, brita, areia e aditivos.</p>
