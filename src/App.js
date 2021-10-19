@@ -11,6 +11,7 @@ import pageAbautUs from './pages/PageAbautUs/index';
 import pageSlump from './pages/PageConcrete/Services_Slump/index'
 import pageEsclerometria from './pages/PageConcrete/Services_Esclerometria/index'
 import pageRomper from './pages/PageConcrete/Services_Romper/index'
+import pageExtracao from './pages/PageConcrete/Services_Extracao/index'
 
 function App(){
     return(
@@ -27,6 +28,7 @@ function App(){
                 <Route path="/page-slump" component={pageSlump} />    
                 <Route path="/page-esclerometria" component={pageEsclerometria} />    
                 <Route path="/page-romper" component={pageRomper} />    
+                <Route path="/page-extracao" component={pageExtracao} />    
             </Layout>
             </Switch>
         </BrowserRouter>

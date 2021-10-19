@@ -1,57 +1,72 @@
 import React from 'react'
 
 import ServicesPart3 from '../../../components/ServicesPart3'
-import Concreteslump from '../../../assets/images/concrete/slump .jpg';
-import Concretemolde from '../../../assets/images/concrete/molde.jpg';
+import Concreteext from '../../../assets/images/concrete/3.jpg';
+import Concreteext2 from '../../../assets/images/concrete/2.jpg';
+import Concreteext4 from '../../../assets/images/concrete/4.jpg';
+import Concreteext6 from '../../../assets/images/concrete/6.jpg';
+import Concreteext7 from '../../../assets/images/concrete/7.jpg';
 
-export default function slump() {
+export default function extracao() {
     return (
             <div style={{marginTop: '-70px'}}>
                 <ServicesPart3/>
-            <div className="pb-10 text-center section-title" style={{marginTop:'50px'}}>
-            <h3 className="text-[32px] pt-2 font-bold"> Slump test </h3>
+            <div className="pb-10 text-center section-title listextraa">
+            <h3 className="text-[32px] font-bold"> Extracão de Testemunhos </h3>
         
             <section id="company">
                 <div class="container">
-                    <div class="row mb64 mb-sm-0 flex v-align-row mb-8 "style={{marginTop:'50px'}}>
+                    <div class="row mb64 mb-sm-0 flex v-align-row mb-8 listextraa">
                         <div class="col-md-6">
-                            <p className='pt-4'>    
-                            O procedimento de teste de abatimento é realizado para verificar a trabalhabilidade do
-                            concreto. Um bom concreto trabalhável tem boa resistência.<br />
-                            A trabalhabilidade diz respeito
-                            à aplicação do material, pois para a concretagem de um piso o abatimento tem de ser menor 
-                            para que haja maior resistência e menor deformação, facilitando o trabalho.<br /> Em contrapartida
-                            na concretagem de uma estaca o abatimento tem de ser maior, concreto mais úmido, para que consiga
-                            preencher os espaços vazios do local onde foi aplicado.Um dos métodos mais utilizados para determinar 
-                            a consistência é o ensaio de abatimento do concreto, também conhecido como slump test. <br />
-                            Fonte: Norma – ABNT NBR NM67: 1998
+                            <p>    
+                            A extração permite obter amostras de corpos de prova em asfalto e concreto.
+                            Com este corpo de prova extraído da peça concretada , torna-se possível o ensaio de resistência à compressão 
+                            axial. O material extraído pode ter variados diâmetros, dependendo da necessidade do cliente.<br />
+                            Fonte: Norma ABNT NBR 7584:1995
                             </p>
+                            <h3 class="listextraa">EXTRAÇÃO, PREPARO, ENSAIO E ANÁLISE DOS RESULTADOS</h3>
+                            <ul style={{ listStyleType: "disc"}} class="listextra">
+                                <li> 50mm;</li>
+                                <li> 75mm;</li>
+                                <li>100mm;</li>
+                                <li>150mm;</li>
+                                <li>Outras dimensões pedir orçamento prévio;;</li>
+                                <li>Acrescentar custos de transportes, diárias em viagem, estadias, etc;;</li>
+                                <li>Furos em concreto , Corte em concreto, Fixação de chumbamentos.;</li>
+                            </ul>
                         </div>
                         <div class="col-md-6">
-                            <img src={Concreteslump} />
-                        </div>
+                            <img src={Concreteext} />
+                        </div> 
                     </div>
                 </div>
             </section>
-        </div>
-        <div className="pb-10 text-center section-title" style={{marginTop:'50px'}}>
-            <h3 className="text-[32px] pt-2 font-bold"> Moldagem dos corpo de prova </h3>
-        
             <section id="company">
                 <div class="container">
-                    <div class="row mb64 mb-sm-0 flex v-align-row mb-8 "style={{marginTop:'50px'}}>
+                    <div class="row mb64 mb-sm-0 flex v-align-row mb-8 listextraa">
                         <div class="col-md-6">
-                            <p className='pt-4'>    
-                            O procedimento de  moldagem dos corpos de prova, tem de se fazer uma prévia homogeneização 
-                            do concreto para garantir a sua uniformidade. Posteriormente, o concreto é introduzido dentro 
-                            do molde, tendo a quantidade de camadas e golpes para adensamento.<br />
-                            Fonte: Norma ABNT NBR 5738:2015.
-
+                            <p>    
+                                Por norma recomenda-se que se efetue a amostragem de testemunhos extraídos de concreto somente de regiões sãs e 
+                                íntegras, sempre e quando o objetivo seja avaliar a resistência à compressão do concreto, nossos equipamentos 
+                                reconhecem a ferragem da estrutura, tornando a extração limpa de ferragens.<br />
+                                Os testemunhos têm seus topos regularizados por meio de retificação com serra metálica diamantada e capeados com 
+                                pasta de enxofre (NBR 5738 – ABNT, 2015), obtendo-se faces planas, paralelas e normais ao seu eixo vertical, normalizados para os ensaios de ruptura.
                             </p>
                         </div>
-                        <div class="col-md-6">
-                            <img src={Concretemolde} />
+                        <div class="col-lg-2 col-md-12 mb-2 mb-lg-0 a.image_container">
+                            <img src={Concreteext2} class="w-10  mb-2" />
+                            <img src={Concreteext4} class="w-10  mb-2" />
                         </div>
+                        <div class="col-lg-2 col-md-12 mb-2 mb-lg-0 a.image_container">
+                            <img src={Concreteext6} class="w-10  mb-2" />
+                            <img src={Concreteext7} class="w-10  mb-2" />
+                        </div>
+                        <div class="col-lg-2 col-md-12 mb-2 mb-lg-0 a.image_container">
+                            <img src={Concreteext2} class="w-10  mb-2" />
+                            <img src={Concreteext4} class="w-10  mb-2" />
+                        </div>
+                        
+                        
                     </div>
                 </div>
             </section>

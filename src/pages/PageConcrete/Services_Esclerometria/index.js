@@ -59,9 +59,9 @@ export default function index() {
                                         </div>
                                     </a>
                                                             
-                                    <a itemprop="url" href="servicos_detalhes.html?projectId=13" class="col-md-4 col-sm-6 col-xs-12 services__type-col">
+                                    <a itemprop="url" href="/page-extracao" class="col-md-4 col-sm-6 col-xs-12 services__type-col">
                                         <div class="services__type">
-                                            <div class="services__type-name" itemprop="name">Sondagem Rotativa</div>
+                                            <div class="services__type-name" itemprop="name">Extração de testemunho</div>
                                         </div>
                                     </a>
                                                                                 
