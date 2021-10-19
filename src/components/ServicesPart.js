@@ -50,10 +50,7 @@ export default function ServicesPart() {
                 hover:border-theme-color-2
                 wow
                 fadeIn
-              "
-                data-wow-duration="1s"
-                data-wow-delay="0.2s"
-              >
+              ">
                 <div className="services-icon relative inline-block">
                   <img
                     className="duration-300 shape group-hover:rotate-[25deg]"
@@ -122,8 +119,6 @@ export default function ServicesPart() {
                 wow
                 fadeIn
               "
-                data-wow-duration="1s"
-                data-wow-delay="0.5s"
               >
                 <div className="services-icon relative inline-block">
                   <img
@@ -197,10 +192,7 @@ export default function ServicesPart() {
                 hover:border-theme-color-2
                 wow
                 fadeIn
-              "
-                data-wow-duration="1s"
-                data-wow-delay="0.8s"
-              >
+              ">
                 <div className="services-icon relative inline-block">
                   <img
                     className="duration-300 shape group-hover:rotate-[25deg]"

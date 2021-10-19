@@ -12,7 +12,7 @@ export default function AbautUsg() {
                 <div class="container">
                     <div class="row mb64 mb-sm-0 flex v-align-row mb-8 text-[32px]"style={{marginTop:'50px'}}>
                         <div class="col-md-6">
-                        <h2 class="text-center font-bold">Betontech Controle Tecnológico</h2>
+                            <h2 class="text-center font-bold">Betontech Controle Tecnológico</h2>
                             <p className='pt-4'>    
                                 Sediada em Porto Velho, a Betontech  atua na área de consultoria técnica e prestação
                                 de serviços voltados à engenharia civil por meios de ensaios laboratoriais, fiscalização 
@@ -31,20 +31,11 @@ export default function AbautUsg() {
                             
                         </div>
                         <div class="col-md-6">
-                            <div class="pages__circles">
-                                <div class="pages__circle pages__circle--outer">
-                                    <div class="pages__circle pages__circle--middle">
-                                        <div class="pages__circle pages__circle--inner">
-                                            <img src={abautus} />
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                            <img src={abautus} />
                         </div>
                     </div>
                 </div>
             </section>
         </div>
-        
     )
 }

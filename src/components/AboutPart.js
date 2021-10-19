@@ -3,6 +3,7 @@ import React from 'react'
 import about1 from '../assets/images/about/10.jpg'
 import about2 from '../assets/images/about/asfalto.jpeg'
 import about3 from '../assets/images/about/12.jpg'
+import about4 from '../assets/images/about/slump .jpg'
 
 import aboutShape2 from '../assets/images/about/about-shape-2.svg'
 
@@ -126,7 +127,7 @@ export default function AboutPart() {
               </div>
               <div class="w-full lg:w-1/2 lg:order-first">
                 <div class="mx-4 mt-12 text-center about-image wow fadeInRightBig">
-                  <img src={about2} alt="about" />
+                  <img src={about4} alt="about" />
                 </div>
               </div>
             </div>

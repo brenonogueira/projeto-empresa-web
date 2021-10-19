@@ -9,7 +9,7 @@ import img5 from "../assets/images/carrocel/img5.png";
 
 export default function BrandPart() {
   return (
-    <div style={{ marginTop: '-10px' }}>
+    <div style={{ marginTop: '-39px' }}>
       <div
         id="carouselExampleControls"
         className="carousel slide carousel-fade mt-5 "
