@@ -61,12 +61,6 @@ export default function extracao() {
                             <img src={Concreteext6} class="w-10  mb-2" />
                             <img src={Concreteext7} class="w-10  mb-2" />
                         </div>
-                        <div class="col-lg-2 col-md-12 mb-2 mb-lg-0 a.image_container">
-                            <img src={Concreteext2} class="w-10  mb-2" />
-                            <img src={Concreteext4} class="w-10  mb-2" />
-                        </div>
-                        
-                        
                     </div>
                 </div>
             </section>
@@ -104,7 +98,6 @@ export default function extracao() {
                                             <div class="services__type-name" itemprop="name">Extração de testemunhos</div>
                                         </div>
                                     </a>
-                                                                                
                                 </div>
                             </div>  
                         </div>                      

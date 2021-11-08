@@ -1,11 +1,33 @@
 import react from "react";
 
-import ServicesPart3 from '../../components/ServicesPart3'
+import ServicesPart3 from '../../../components/ServicesPart3'
+import teor from '../../../assets/images/concrete/teor.jpg';
 
 function Asphalt(){
     return (
         <div style={{marginTop: '-70px'}}>
         <ServicesPart3/>
+        <div className="pb-10 text-center section-title" style={{marginTop:'50px'}}>
+            <h3 className="text-[32px] pt-2 font-bold"> Teor de ligante e Granulometria </h3>
+        
+            <section id="company">
+                <div class="container">
+                    <div class="row mb64 mb-sm-0 flex v-align-row mb-8 "style={{marginTop:'50px'}}>
+                        <div class="col-md-6">
+                            <p className='pt-4'>    
+                            A averiguação de teor de ligante e granulometria de misturas asfálticas são de suma importância no controle tecnológico do processo construtivo. Esses garantem um bom desempenho do pavimento em sua vida útil.<br />
+                            Para obtenção de teor de ligante é realizado, entre outros, o ensaio de extração de betume normatizado na DNER ME 053/94, que é um ensaio de baixo custo e de procedimento simples.<br />
+                            Vêm-se destacando atualmente uma alternativa de maior precisão, o método da ignição, ainda sem norma brasileira vigente, com normas norte-americanas ASTM D 6307:2010 onde são utilizados fornos de ignição.
+
+                            </p>
+                        </div>
+                        <div class="col-md-6">
+                            <img src={teor} />
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
         <div  className="pb-10 text-center section-title" style={{marginTop:'45px'}}>
         <div className="m-auto w-50 h-1 mb-3 bg-gradient-to-r"></div>
         <h3 className="text-[32px] pt-2 font-bold"> Nossos serviços </h3>

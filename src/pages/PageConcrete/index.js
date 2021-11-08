@@ -24,24 +24,6 @@ function Concrete(){
                         ideal, a resistência diminuirá em função dos poros que ocorrerão quando este excesso evaporar.
                     </h4>
                 </div> 
-                <div class="row" style={{marginTop:'35px', marginLeft:'70px'}}>
-                    <div class="col-4 services__type-name">
-                        <div class="list-group" id="list-tab" role="tablist">
-                        <a class="list-group-item list-group-item-action active" id="list-home-list" data-toggle="list" href="#list-home" role="tab" aria-controls="home">ABNT NBR -13528</a>
-                        <a class="list-group-item list-group-item-action" id="list-profile-list" data-toggle="list" href="#list-profile" role="tab" aria-controls="profile">ABNT NBR -13755</a>
-                        <a class="list-group-item list-group-item-action" id="list-messages-list" data-toggle="list" href="#list-messages" role="tab" aria-controls="messages">ABNT NBR -13753</a>
-                        <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="list" href="#list-settings" role="tab" aria-controls="settings">ABNT NBR -13754</a>
-                        </div>
-                    </div>
-                    <div class="col-8">
-                        <div class="tab-content" id="nav-tabContent">
-                        <div class="tab-pane fade show active" id="list-home" role="tabpanel" aria-labelledby="list-home-list">Revestimentos de paredes e tetos com argamassa inorgânica, Determinação da resistência de aderência á tração Determinação da Resistência de aderência á tração.</div>
-                        <div class="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">Revestimento de paredes externas e fachadas com placas cerâmica e com utilização argamassa colante – Anexo A – Determinação da resistência de revestimentos cerâmicos assentados com argamassa colante.</div>
-                        <div class="tab-pane fade" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list">Revestimentos de piso interno ou externo com placa cerâmica e com utilização de argamassa colante, Determinação da Resistência de aderência á tração.</div>
-                        <div class="tab-pane fade" id="list-settings" role="tabpanel" aria-labelledby="list-settings-list">Revestimentos de paredes internas com placas cerâmicas e com utilização de argamassa colante, ensaio de tração. </div>
-                        </div>
-                    </div>
-                </div>
             </div>
             
             <div  className="pb-10 text-center section-title" style={{marginTop:'45px'}}>

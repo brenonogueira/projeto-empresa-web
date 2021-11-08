@@ -1,7 +1,7 @@
 import React from 'react'
 
 import ServicesPart3 from '../../../components/ServicesPart3'
-import Concreteesc from '../../../assets/images/concrete/esc.jpg';
+import Concreteesc from '../../../assets/images/concrete/ropimento.jpg';
 
 export default function index() {
     return (
@@ -15,13 +15,18 @@ export default function index() {
                     <div class="row mb64 mb-sm-0 flex v-align-row mb-8 "style={{marginTop:'50px'}}>
                         <div class="col-md-6">
                             <p className='pt-4'>    
-                            Testar a resistência do concreto sem destruí-lo ou quebrá-lo após o endurecimento é uma tarefa complexa.<br />
-                            O teste do esclerômetro é um teste não destrutivo e simples que é usado para testar a resistência à compressão do concreto
-                            sem qualquer dano. Além disso, a melhor parte do teste do martelo de ressalto é que o concreto pode ser testado em tempo real no local em vez de ir ao laboratório sem nenhum dano.<br />
-                            Antes de iniciar o procedimento, é necessária a calibração do martelo. Para fazer isso, o esclerômetro é testado contra a bigorna
-                            de teste de aço, que tem um número de dureza Brinell de cerca de 5000 MPa.<br />
-                            Fonte: ABNT NBR 7584:2012
-
+                                As grandes exigências requeridas para um projeto é a resistência á compressão. <br />Nesses casos,
+                                o projetista deve especificar um material que possua boa resistência à compressão, que não se deforme
+                                facilmente e que assegure boa precisão dimensional quando for solicitado por esforços de compressão.<br />
+                                Compressão é um esforço axial que tende a provocar um encurtamento ou até o rompimento 
+                                do corpo submetido a este esforço.<br /> Em ensaios de compressão realizados em concretos, 
+                                são produzidos corpos-de-prova com dimensões padronizadas e são submetidos a uma força axial 
+                                distribuída de modo uniforme em toda seção transversal do corpo-de-prova.<br />
+                                Ensaio realizado em laboratório, com o intuito de determinar a resistência característica
+                                do concreto utilizado. Para este ensaio são fornecidos os moldes em regime de comodato
+                                (empréstimo) e é feito um treinamento para a forma de moldagem, e em casos de grandes concretagens, 
+                                disponibilizamos um laboratorista para a realização dos ensaios.<br />
+                                Fonte: Norma – ABNT NBR 12025: 2012
                             </p>
                         </div>
                         <div class="col-md-6">
