@@ -1,6 +1,6 @@
 import React from 'react'
 
-import ServicesPart3 from '../../../components/ServicesPart3'
+import ServicesPart3 from '../../../components/ServicesPart3';
 import Concreteslump from '../../../assets/images/concrete/slump .jpg';
 import Concretemolde from '../../../assets/images/concrete/molde.jpg';
 

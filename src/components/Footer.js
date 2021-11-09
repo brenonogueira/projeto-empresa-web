@@ -57,11 +57,10 @@ export default function Footer() {
                           </h4>
                         </div>
                         <ul class="link">
-                          <li><a href="javascript:void(0)">Road Map</a></li>
-                          <li><a href="javascript:void(0)">Privacy Policy</a></li>
-                          <li><a href="javascript:void(0)">Refund Policy</a></li>
-                          <li><a href="javascript:void(0)">Terms of Service</a></li>
-                          <li><a href="javascript:void(0)">Pricing</a></li>
+                          <li><a href="page-values">Visão</a></li>
+                          <li><a href="page-values">Missão</a></li>
+                          <li><a href="page-values">Valores</a></li>
+                          
                         </ul>
                       </div>
                     </div>

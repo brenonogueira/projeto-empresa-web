@@ -8,7 +8,7 @@ import bannerBg from "../assets/images/header/banner-bg.svg";
 export default function Header({ text }) {
   return (
     <>
-      <div id="background-wrap">
+      {/* <div id="background-wrap">
         <div class="bubble x1"></div>
         <div class="bubble x2"></div>
         <div class="bubble x3"></div>
@@ -19,7 +19,7 @@ export default function Header({ text }) {
         <div class="bubble x8"></div>
         <div class="bubble x9"></div>
         <div class="bubble x10"></div>
-      </div>
+      </div> */}
         <div  id="home" className="relative z-55 bg-bottom bg-no-repeat header-hero bg-cover" 
               style={{ backgroundImage: `url(${bannerBg}` }} >
           <div className="container" >
