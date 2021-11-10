@@ -8,6 +8,7 @@ import axios from "axios";
 export default function Index() {
   const [open, setOpen] = useState(false);
   const [token, setToken] = useState("");
+  const [relatorio, setRelatorio] = useState([]);
   const close = false;
 
   const getRelatorio = () => {
@@ -18,6 +19,7 @@ export default function Index() {
         },
       })
       .then((res) => {
+        setRelatorio(res.data[0])
         console.log(res.data);
       });
   };
@@ -52,13 +54,14 @@ export default function Index() {
           <Button
             onClick={() => {
               getRelatorio();
+              handleOpen()
             }}
             variant="contained"
           >
             Visualizar
           </Button>
         </div>
-        <Modal modalOpen={open} setOpen={setOpen} />
+        <Modal modalOpen={open} setOpen={setOpen} relatorio={relatorio} />
       </Container>
     </>
   );

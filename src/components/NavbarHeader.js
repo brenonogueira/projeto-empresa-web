@@ -45,7 +45,7 @@ export const NavbarHeader = () => {
                                             </li>
                                         </ul>
                                         <div className=" navbar-btn">
-                                            <a className="main-btn gradient-btn" data-scroll-nav="1,5s" href="page-login"rel="nofollow">Entrar</a>
+                                            <a className="main-btn gradient-btn" data-scroll-nav="1,5s" href="report"rel="nofollow">RELATÓRIO</a>
                                         </div>
                                     </div>
                                 </nav>
