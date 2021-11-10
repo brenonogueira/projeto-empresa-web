@@ -12,10 +12,8 @@ export default function Index() {
 
   const getRelatorio = () => {
     axios
-      .get("https://apibetontech.ddns.net:3333/v1/cliente/relatorio/", {
+      .get("http://191.252.193.237:3333/v1/cliente/relatorio/", {
         headers: {
-          Accept: "application/json",
-          "Content-Type": "application/json",
           "x-token": token,
         },
       })
