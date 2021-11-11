@@ -82,7 +82,7 @@ export default function Footer() {
                           <li><a href="/#about">Serviços</a></li>
                           <li><a href="/page-abautUs">Sobre Nós</a></li>
                           <li><a href="page-customers">Clientes</a></li>
-                          <li><a href="javascript:void(0)">Contact</a></li>
+                          <li><a href="page-contato">Contact</a></li>
                         </ul>
                       </div>
                     </div>

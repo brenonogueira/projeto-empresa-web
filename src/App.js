@@ -15,14 +15,15 @@ import pageExtracao from './pages/PageConcrete/Services_Extracao/index';
 import pageBetume from './pages/PageAsphalt/Services_Betume/index';
 import pageImprimacao from './pages/PageAsphalt/Services_Imprimacao/index';
 import pageMarshell from './pages/PageAsphalt/Services_Marshell/index';
-import pageTeorLigante from './pages/PageAsphalt/Services_TeorLigante/index'
-import pageCalifornia from './pages/PageGround/Services_California/index'
-import pageGranulometria from './pages/PageGround/Services_Granulometria/index'
-import pageInsitu from './pages/PageGround/Services_Insitu/index'
-import pageLiquidez from './pages/PageGround/Services_Liquidez/index'
-import pagePlaticidade from './pages/PageGround/Services_Plasticidade/index'
-import pageSondagem from './pages/PageGround/Services_Spt/index'
-import pageValues from './pages/Missão_Valores_visão/index'
+import pageTeorLigante from './pages/PageAsphalt/Services_TeorLigante/index';
+import pageCalifornia from './pages/PageGround/Services_California/index';
+import pageGranulometria from './pages/PageGround/Services_Granulometria/index';
+import pageInsitu from './pages/PageGround/Services_Insitu/index';
+import pageLiquidez from './pages/PageGround/Services_Liquidez/index';
+import pagePlaticidade from './pages/PageGround/Services_Plasticidade/index';
+import pageSondagem from './pages/PageGround/Services_Spt/index';
+import pageValues from './pages/Missão_Valores_visão/index';
+import pageContato from './pages/PageContato/index';
 
 function App(){
     return(
@@ -51,6 +52,7 @@ function App(){
                     <Route path="/page-plasticidade" component={pagePlaticidade} />    
                     <Route path="/page-sondagem" component={pageSondagem} />    
                     <Route path="/page-values" component={pageValues} />    
+                    <Route path="/page-contato" component={pageContato} />    
                 </Layout>
             </Switch>
         </BrowserRouter>
