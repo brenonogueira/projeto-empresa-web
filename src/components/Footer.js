@@ -23,19 +23,14 @@ export default function Footer() {
                       A Betontech agradece seu acesso, para mais informações acesse nossas redes sociais.
                     </p>
                     <ul class="flex footer-social">
+                      
                       <li>
-                        <a href="javascript:void(0)" class=" inline-block mr-6 text-2xl text-white duration-300 hover:text-theme-color-2">
+                        <a href="https://www.facebook.com/betontech.com.br" class=" inline-block mr-6 text-2xl text-white duration-300 hover:text-theme-color-2">
                           <i class="lni lni-facebook-filled"></i>
                         </a>
                       </li>
-                    
                       <li>
-                        <a href="javascript:void(0)" class=" inline-block mr-6 text-2xl text-white duration-300 hover:text-theme-color-2">
-                          <i class="lni lni-instagram-filled"></i>
-                        </a>
-                      </li>
-                      <li>
-                        <a href="javascript:void(0)" class=" inline-block mr-6 text-2xl text-white duration-300 hover:text-theme-color-2">
+                        <a href="https://www.linkedin.com/company/betontech-tecnologia-de-concreto-ltda/about/" class=" inline-block mr-6 text-2xl text-white duration-300 hover:text-theme-color-2">
                           <i class="lni lni-linkedin-original"></i>
                         </a>
                       </li>
