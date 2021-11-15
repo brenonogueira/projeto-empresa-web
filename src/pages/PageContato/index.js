@@ -22,56 +22,33 @@ export default function index() {
           Fale Conosco
         </Typography>
         <form>
-        <Grid container spacing={3}>
-        <Grid item xs={12} sm={6}>
-            <TextField
-              required
-              id="sobrenome"
-              name="nome"
-              label="Nome"
-              fullWidth
-              autoComplete="given-name"
-              variant="standard"
-            />
-          </Grid>
-          <Grid item xs={12} sm={6}>
-            <TextField
-              required
-              id="sobrenome"
-              name="sobrenome"
-              label="Sobrenome"
-              fullWidth
-              autoComplete="family-name"
-              variant="standard"
-            />
-          </Grid>
-          <Grid item xs={12}>
-            <TextField
-              required
-              id="email"
-              name="email"
-              label="E-mail"
-              fullWidth
-              autoComplete="email"
-              variant="standard"
-            />
-          </Grid>
+          <Grid container spacing={3}>
+            <Grid item xs={12} sm={12}>
+              <h1>Telefone : (69) 3219-1142</h1>
+            </Grid>
 
-          <Grid item xs={12}>
-            <TextField
-              id="outlined-multiline-static"
-              label="Mensagem"
-              multiline
-              fullWidth
-              rows={4}
-            />
+            <Grid item xs={12} sm={12}>
+              <h1>E-mail : contato@betontech.com.br</h1>
+            </Grid>
+
+            <Grid item xs={12} sm={12}>
+              <h1>Endereço : Rua Rio Candeias, 4171 B - Nova Esperança<br />
+                  Porto Velho - RO</h1>
+            </Grid>
+
+            <Grid item xs={12} sm={2}>
+              <a href="https://www.facebook.com/betontech.com.br" class=" inline-block mr-6 text-2xl text-black duration-300 hover:text-theme-color-2">
+                <i class="lni lni-facebook-filled"></i>
+              </a>
+            </Grid>
+
+            <Grid item xs={12} sm={2}>
+              <a href="https://www.linkedin.com/company/betontech-tecnologia-de-concreto-ltda/about/" class=" inline-block mr-6 text-2xl text-black duration-300 hover:text-theme-color-2">
+                <i class="lni lni-linkedin-original"></i>
+              </a>
+            </Grid>
           </Grid>
-        </Grid>
-        <Button variant="contained" sx={{ mt: 3, ml: 1 }}>
-          Enviar
-        </Button>
         </form>
-       
       </Paper>
     </Container>
   );
