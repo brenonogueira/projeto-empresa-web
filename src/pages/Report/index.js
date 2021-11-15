@@ -41,6 +41,8 @@ export default function Index() {
           fullWidth
           id="outlined-basic"
           label="Insira o token"
+          required
+          
           variant="outlined"
           onChange={(e) => setToken(e.target.value)}
         />
@@ -52,6 +54,7 @@ export default function Index() {
           }}
         >
           <Button
+          disabled={token.length < 10}
             onClick={() => {
               getRelatorio();
               handleOpen()
@@ -61,7 +64,7 @@ export default function Index() {
             Visualizar
           </Button>
         </div>
-        <Modal modalOpen={open} setOpen={setOpen} relatorio={relatorio} />
+        <Modal modalOpen={open} setOpen={setOpen} relatorio={relatorio} setRelatorio={setRelatorio} />
       </Container>
     </>
   );
