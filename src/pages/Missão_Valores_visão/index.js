@@ -13,11 +13,11 @@ export default function AbautUsg() {
                         <div class="col-md-6 ">
                             <h2 class="text-center font-bold">Missão</h2>
                             <p className='pt-4 text-center'>    
-                                Sermos referência na área de consutoria e serviços especiais de engenharia civil.    
+                                Sermos referência na área de consultoria e serviços especiais de engenharia civil.    
                             </p>
                             <h2 class="text-center font-bold">Visão</h2>
                             <p class="text-center">
-                                Ser uma organização eficaz e dinâmica, conquistando o pais com serviços prestados.
+                                Ser uma organização eficaz e dinâmica, conquistando o país com serviços prestados.
                             </p> 
                             <h2 class="text-center font-bold">Valores</h2>
                             <p class="text-center">
