@@ -4,12 +4,16 @@ import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import Layout from '../src/components/Layout/Layout'
+import { BrowserRouter, Switch, Route, HashRouter } from "react-router-dom";
 
 ReactDOM.render(
   <React.StrictMode>
+    <HashRouter>
     <Layout>
       <App />
     </Layout>
+    </HashRouter>
+   
   </React.StrictMode>,
   document.getElementById("root")
 );

@@ -48,34 +48,34 @@ export const NavbarHeader = () => {
                       </li>
 
                       <li className="nav-item">
-                        <a className="page-scroll" href="/#about">
+                        <a className="page-scroll" href="#/#about">
                           Serviços
                         </a>
                       </li>
 
                       <li className="nav-item">
-                        <a className="page-scroll" href="/page-about-us">
+                        <a className="page-scroll" href="#/page-about-us">
                           Sobre Nós
                         </a>
                       </li>
 
                       <li className="nav-item">
-                        <a className="page-scroll" href="/page-customers">
+                        <a className="page-scroll" href="#/page-customers">
                           Clientes
                         </a>
                       </li>
 
                       <li className="nav-item">
-                        <a className="page-scroll" href="/page-contato">
+                        <a className="page-scroll" href="#/page-contato">
                           Contato
                         </a>
                       </li>
                     </ul>
-                    <div className=" navbar-btn">
+                    <div className="navbar-btn">
                       <a
                         className="main-btn gradient-btn"
                         data-scroll-nav="1,5s"
-                        href="report"
+                        href="#/report"
                         rel="nofollow"
                       >
                         RELATÓRIO
