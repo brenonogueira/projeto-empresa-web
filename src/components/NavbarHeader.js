@@ -42,18 +42,6 @@ export const NavbarHeader = () => {
                       </li>
 
                       <li className="nav-item">
-                        <a className="page-scroll" href="/#recursos">
-                          Recursos
-                        </a>
-                      </li>
-
-                      <li className="nav-item">
-                        <a className="page-scroll" href="#/#about">
-                          Serviços
-                        </a>
-                      </li>
-
-                      <li className="nav-item">
                         <a className="page-scroll" href="#/page-about-us">
                           Sobre Nós
                         </a>

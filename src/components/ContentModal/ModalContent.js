@@ -15,7 +15,7 @@ import Divider from "@mui/material/Divider";
 export const ModalContent = React.forwardRef(({ modalOpen, setOpen, relatorio, setRelatorio, dataAferido}, ref) => {
     return (
         <div ref={ref}>
- <Box
+        <Box
         style={{
           position: "absolute",
           top: "50%",
@@ -24,6 +24,7 @@ export const ModalContent = React.forwardRef(({ modalOpen, setOpen, relatorio, s
           width: "90%",
           height: "89%",
           transform: "translate(-50%, -50%)",
+          overflow: "scroll"
         }}
       >
         <Card sx={{ minWidth: 275 }}>
@@ -113,6 +114,6 @@ export const ModalContent = React.forwardRef(({ modalOpen, setOpen, relatorio, s
         </Card>
       </Box>
         </div>
-       
+      
     )
 })
