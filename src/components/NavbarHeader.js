@@ -54,19 +54,19 @@ export const NavbarHeader = () => {
                       </li>
 
                       <li className="nav-item">
-                        <a className="page-scroll" href="/page-abautUs">
+                        <a className="page-scroll" href="/page-about-us">
                           Sobre Nós
                         </a>
                       </li>
 
                       <li className="nav-item">
-                        <a className="page-scroll" href="page-customers">
+                        <a className="page-scroll" href="/page-customers">
                           Clientes
                         </a>
                       </li>
 
                       <li className="nav-item">
-                        <a className="page-scroll" href="page-contato">
+                        <a className="page-scroll" href="/page-contato">
                           Contato
                         </a>
                       </li>
