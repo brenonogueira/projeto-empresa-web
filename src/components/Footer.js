@@ -16,7 +16,7 @@ export default function Footer() {
               <div class="flex flex-wrap" >
                 <div class="col-lg-4 col-md-6 col-sm-8">
                   <div class="mt-12 footer-about wow fadeIn" data-wow-duration="1s" data-wow-delay="0.2s" >
-                    <a class="inline-block mb-8 logo" href="#home">
+                    <a class="inline-block mb-8 logo" href="/home">
                       <img src={logo} alt="logo" class="w-40"/>
                     </a>
                     <p class="pb-10 pr-10 leading-snug text-white">
@@ -72,10 +72,10 @@ export default function Footer() {
                           </h4>
                         </div>
                         <ul class="link">
-                          <li><a href="#home">Inicio</a></li>
-                          <li><a href="/#recursos">Recursos</a></li>
-                          <li><a href="/#about">Serviços</a></li>
-                          <li><a href="/page-abautUs">Sobre Nós</a></li>
+                          <li><a href="home">Inicio</a></li>
+                          <li><a href="/recursos">Recursos</a></li>
+                          <li><a href="/about">Serviços</a></li>
+                          <li><a href="page-about-us">Sobre Nós</a></li>
                           <li><a href="page-customers">Clientes</a></li>
                           <li><a href="page-contato">Contact</a></li>
                         </ul>
@@ -106,7 +106,7 @@ export default function Footer() {
           </div>
       </footer>
       
-    <a href="#" class="back-to-top"><i class="lni lni-chevron-up"></i></a>
+    <a href="/" class="back-to-top"><i class="lni lni-chevron-up"></i></a>
 
     </div>
   )
