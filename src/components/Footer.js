@@ -72,9 +72,9 @@ export default function Footer() {
                           </h4>
                         </div>
                         <ul class="link">
-                          <li><a href="home">Inicio</a></li>
-                          <li><a href="/recursos">Recursos</a></li>
-                          <li><a href="/about">Serviços</a></li>
+                          <li><a href="/">Inicio</a></li>
+                          <li><a href="/#recursos">Recursos</a></li>
+                          <li><a href="/#about">Serviços</a></li>
                           <li><a href="page-about-us">Sobre Nós</a></li>
                           <li><a href="page-customers">Clientes</a></li>
                           <li><a href="page-contato">Contact</a></li>
